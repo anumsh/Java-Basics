@@ -9,18 +9,20 @@ public class CountPassengers {
 
 	public static void main(String[] args) {
 		// no passengers in bus. 0 is assigned to passengers variable.
-		int passengers=0;
-		/* 5 passengers get into the bus. 5 is added into passengers variable
-		     and assigning to passengers variable again.
+		int passengers   // declaring the variable
+		passengers=0;   // initialising the variable passengers
+		/* 5 passengers get into the bus. 5 is added into passengers variable.
+		     and assign to passengers variable again.
 		     java start calculating from right --> left . 
-		    So there shouls always one variable in left side.
+		    So there should always one variable in left side.
 		*/
-		passengers=passengers +5;
+		passengers=passengers +5;      // updating the passengers value by adding 5 in it. passengers=5
 		// 3 passenegers get out from bus .
-		passengers=passengers -3;
+		passengers=passengers -3;		// substracting 3 from updated value of passengers (5-3)=2
+		// 1 passenger is out and 5 passengers are gt into the bus
 		passengers=passengers -1 +5;
 		// print the number of passengers left in bus.
-		System.out.println(passengers);
+		System.out.println(passengers);  // it will print 6.
 
 	}
 

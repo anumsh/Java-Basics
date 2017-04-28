@@ -1,3 +1,3 @@
 # Java Basics
 
-This is course from Udacity. It will cover data-types, varibales, loops, functions of Java.
+This is course from Udacity. It will cover data-types, variables, control flow, loops, functions of Java.

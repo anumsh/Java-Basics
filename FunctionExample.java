@@ -2,7 +2,7 @@ public class FunctionExample {
 	/*
 	 * public: it is access specifier , any one access this function.
 	 * static: no need to create object in order to execute this function.
-	 * void: no return type is needed.
+	 * void: no return type 
 	 * Lyrics- function name
 	 * without parameters.
 	 */
@@ -26,6 +26,7 @@ public class FunctionExample {
 		 * 
 		 */
 			Lyrics(); //  calling the function
+			Lyrics(); // you can call  this function many times 
 
 	}
 

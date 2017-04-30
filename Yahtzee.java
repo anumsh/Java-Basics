@@ -23,15 +23,15 @@ public static int keepRolling()
     int dice3 = rollDice();
     int dice4 = rollDice();
     int dice5 = rollDice();
-    int count = 1;
-    while (!(dice1 == dice2 && dice2 == dice3 && dice3 == dice4  && dice4 == dice5)) {
+    int count = 1;			//  while loop counter
+    while (!(dice1 == dice2 && dice2 == dice3 && dice3 == dice4  && dice4 == dice5)) { // while loop condition
         //we need to re-roll
         dice1 = rollDice();
         dice2 = rollDice();
         dice3 = rollDice();
         dice4 = rollDice();
         dice5 = rollDice();
-        count = count + 1;
+        count=count + 1;  // while loop increment . it can be count++(short hand)
     }
     return count;
 }
@@ -43,4 +43,3 @@ public static int keepRolling()
 	}
 
 }
-

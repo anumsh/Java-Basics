@@ -3,11 +3,11 @@ public class Grades {
 	
 	/*  2-D array of grades
 	 * 
-	 *             		     amit[0]            sunil[1]    	     rekha[2]          pulkit[3]           neha[4]
-	 * math [0]			67			80			76			83			77
-	 * English[1]			56			71			69			88			82
-	 * biology[2]			84			78			80			78			77
-	 * arts[3]         		72			85			76			84			73
+	 *             		     amit[0]     sunil[1]   rekha[2]  pulkit[3]  neha[4]
+	 * math [0]			67		80		76		83		77
+	 * English[1]			56		71		69		88		82
+	 * biology[2]			84		78		80		78		77
+	 * arts[3]         		72		85		76		84		73
 	 * 
 	 * so , grade[2][4]= 77 (neha grade in biology subject)
 	 */

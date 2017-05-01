@@ -5,7 +5,8 @@ public class NestedArray {
 		 * Nested Array Example
 		 * it works like this:
 		 * 
-		 * 			i		j		output
+		 * 			i		j			output
+				----------------------------------------------------
 		 * 			0		0			hello
 		 * 					1			hello
 		 * 					2			hello

@@ -4,7 +4,8 @@ public class LongestName {
 	    String longestName=names[0];
 	    for(int i=1;i<size;i++)
 	    {
-	        if((names[i].length()) > (longestName.length()))
+		//use (>=) operator if two of lenght of names are equal(5=5), it will pick the second one. 
+	        if((names[i].length()) >= (longestName.length()))
 	        {
 	             longestName=names[i];
 	        }

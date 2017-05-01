@@ -3,7 +3,7 @@ public class Grades {
 	
 	/*  2-D array of grades
 	 * 
-	 *             		     amit[0]     sunil[1]   rekha[2]  pulkit[3]  neha[4]
+	 *             		     amit[0]   	  sunil[1]   	rekha[2] 		 pulkit[3]  	neha[4]
 	 * math [0]			67		80		76		83		77
 	 * English[1]			56		71		69		88		82
 	 * biology[2]			84		78		80		78		77

@@ -1,12 +1,13 @@
+
 public class Grades {
 	
 	/*  2-D array of grades
 	 * 
-	 *               amit[0]    sunil[1]    rekha[2]     pulkit[3]    neha[4]
+	 *             		     amit[0]            sunil[1]    	     rekha[2]          pulkit[3]           neha[4]
 	 * math [0]			67			80			76			83			77
-	 * English[1]		56			71			69			88			82
-	 * biology[2]		84			78			80			78			77
-	 * arts[3]          72			85			76			84			73
+	 * English[1]			56			71			69			88			82
+	 * biology[2]			84			78			80			78			77
+	 * arts[3]         		72			85			76			84			73
 	 * 
 	 * so , grade[2][4]= 77 (neha grade in biology subject)
 	 */
@@ -38,6 +39,18 @@ public class Grades {
 			return average;
 			
 		}
+		
+		//find the average of specific student
+				public static double studentAverage(int [][] grades, int student){
+					int total=0;
+					int subjects=grades.length;
+					for (int i=0;i<subjects;i++){
+						total +=grades[i][student];
+					}
+					double average=total/(double)subjects;
+					return average;
+					
+				}
 
 	public static void main(String[] args) {
 		/*
@@ -53,5 +66,5 @@ public class Grades {
 			studentsEnglishGrade(grades);
 			System.out.println("the average of students in english is:- " + englishAverage(grades));
 			System.out.println("sunil average in all subjects:- " + sunilAverage(grades));
+			System.out.println("the average of student at index 3 : "+studentAverage(grades,3));
 	}
-
